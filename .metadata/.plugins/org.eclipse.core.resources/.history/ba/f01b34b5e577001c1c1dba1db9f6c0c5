@@ -1,0 +1,27 @@
+package principal;
+
+import java.util.Date;
+
+import entities.Funcionario;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Funcionario funcionario = new Funcionario(1, "Heitor Paiva", "123.456.789.12","12345",  2000.0,  new Date());
+		
+		
+		
+		
+		System.out.println("\nDados da FUNCIONARIO: \n");
+		
+		System.out.println("ID........:   " + funcionario.getId());
+		System.out.println("NOME......:   " + funcionario.getNome());
+		System.out.println("CPF.......:   " + funcionario.getCpf());
+		System.out.println("MATRICULA.:   " + funcionario.getCpf());
+		System.out.println("SALARIO...:   " + funcionario.getCpf());
+		System.out.println("ADMISSAO..:   " + funcionario.getCpf());
+
+	}
+
+}

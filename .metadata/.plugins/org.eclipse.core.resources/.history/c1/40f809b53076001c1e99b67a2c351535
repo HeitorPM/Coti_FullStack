@@ -1,0 +1,15 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Aula 01 - JAVA WEBDEVELOPER");
+		
+		String cpf = "012312312";
+		
+		System.out.println(cpf);
+	}
+
+}

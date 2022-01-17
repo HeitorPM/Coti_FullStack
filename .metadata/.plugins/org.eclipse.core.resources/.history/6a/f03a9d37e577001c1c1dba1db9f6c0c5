@@ -1,0 +1,18 @@
+package principal;
+
+import entities.Pessoa;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pessoa pessoa = new Pessoa(1, "Heitor Paiva", "123.456.789.12");
+		
+		System.out.println("\nDados da pessoa: \n");
+		
+		System.out.println("ID....:   " + pessoa.getId());
+		System.out.println("NOME..:   " + pessoa.getNome());
+		System.out.println("CPF...:   " + pessoa.getCpf());
+	}
+
+}
